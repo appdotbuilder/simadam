@@ -232,7 +232,7 @@ export default function Welcome({ canLogin, canRegister }: Props) {
                                 </Button>
                             )}
                             {canRegister && (
-                                <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-white text-white hover:bg-white hover:text-green-600" asChild>
+                                <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-white text-white hover:bg-white hover:text-black-600" asChild>
                                     <a href="/register">
                                         <span className="mr-2">✨</span>
                                         Daftar Gratis
